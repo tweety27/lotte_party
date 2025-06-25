@@ -1,0 +1,101 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+#gameCanvas {
+  /* border: 2px solid #333; */
+  background: transparent;
+  margin-bottom: 16px;
+}
+#message {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #818181;
+  min-height: 24px;
+}
+#party {
+  background: url('assets/backgrounds/배경.png') center/cover no-repeat;
+  /* background: linear-gradient(180deg, #102E3A 0%, #FFFAF1 100%); */
+  color: #222;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#party h2, #party #congratsMsg {
+  color: #fff;
+}
+#pledgeInput {
+  padding: 8px;
+  font-size: 1em;
+  margin-top: 12px;
+  border: 2px solid #FFD6E8;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255, 214, 232, 0.15);
+}
+#submitPledge {
+  margin-top: 8px;
+  padding: 8px 16px;
+  font-size: 1em;
+  background: #FFD6E8;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#finalPledge {
+  display: none;
+  margin-top: 16px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #FFECB4;
+  color: #000;
+  border-radius: 4px;
+  padding: 12px 20px;
+  /* display: inline-block; */
+}
+#game {
+  background: linear-gradient(180deg, #F3FCFF 0%, #FFFAF1 100%);
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#startBtn {
+  margin-top: 16px;
+  padding: 8px 16px;
+  font-size: 1em;
+  background: #FFD6E8;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.intro-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.title-side-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+#intro {
+  background: #FFFAF1;
+} 
